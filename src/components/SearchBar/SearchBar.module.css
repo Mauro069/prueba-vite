@@ -1,0 +1,39 @@
+.containerSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2; /* Color de fondo de la barra de búsqueda */
+  border: 1px solid #ddd; /* Borde de la barra de búsqueda */
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px 0;
+  max-width: 300px; /* Ancho máximo de la barra de búsqueda */
+}
+
+.searchInput {
+  border: none;
+  background-color: #ddd; /* Fondo transparente para el input */
+  font-size: 16px;
+  flex: 1; /* Expande el input para ocupar el espacio disponible */
+  padding: 8px;
+  margin-right: 10px;
+  outline: none; /* Quita el borde de enfoque */
+  border-radius: 5px;
+}
+
+.searchButton {
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #f7a200; /* Color de fondo del botón de búsqueda */
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.searchButton:hover {
+  background-color: #f7b200; /* Cambio de color al pasar el mouse */
+}
+
+/* Agrega estilos adicionales según sea necesario */

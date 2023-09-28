@@ -1,0 +1,57 @@
+#filtros {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 20px;
+  }
+  
+  .select {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    padding: 10px 16px;
+    background-color: black;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .select:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último selector */
+  }
+  
+  .select:focus {
+    outline: none; /* Elimina el borde de enfoque */
+    cursor: pointer;
+  }
+  
+  /* Estilos para las opciones del selector */
+  .select option {
+    background-color: rgba(19, 15, 53, 0.808);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Estilo cuando se pasa el mouse sobre las opciones */
+  .select option:hover {
+    background-color: #5B8FB9;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón (si lo tienes) */
+  .filterC button {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 3px 13px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 10px; /* Agregamos un margen izquierdo para separarlo del selector */
+  }
+  

@@ -1,0 +1,108 @@
+.bkg{
+    margin: 0;
+    background-image: url('https://images.pexels.com/photos/6089654/pexels-photo-6089654.jpeg');
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    position: absolute;
+    width: 100%;
+  }
+
+
+.formContainer {
+    background-color: #f7a200; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .formTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input,
+  .textarea,
+  .select {
+
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto; /* Centra horizontalmente */
+  }
+
+
+  
+  .error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .selectedDiets {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .selectedDiet {
+    background-color: #7700ff79;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .removeDietButton {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .errorMessage {
+    color: #ff0000;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .submitButton {
+    background-color: #212529;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }

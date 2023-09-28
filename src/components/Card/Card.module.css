@@ -1,0 +1,86 @@
+.card {
+    width: 300px; /* Ancho fijo para todas las tarjetas */
+    margin: 1rem;
+    background-color: #f7a200;
+    color: #333333;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  .cardLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .cardContent {
+    flex-grow: 1;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .cardImg {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .cardText {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .cardTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  
+  .diets {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las dietas se envuelvan si no caben en una línea */
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  h3{
+    color: #fff;
+  }
+  .dietLabel {
+    margin-right: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .dietList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dietList li {
+    margin: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+  }
+  

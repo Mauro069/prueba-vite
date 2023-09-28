@@ -1,0 +1,51 @@
+/* Estilos generales del contenedor de la paginación */
+.paginado {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centramos verticalmente */
+  margin-top: 20px;
+  margin-bottom: 15px;
+  overflow-x: auto; /* Agregamos desplazamiento horizontal si no caben los botones */
+  white-space: nowrap; /* Evitamos que los botones se rompan en varias líneas */
+}
+
+/* Estilos de los botones de la paginación */
+button {
+  font-size: 16px;
+  padding: 10px 15px; /* Reducimos el padding horizontal para ajustar el tamaño */
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #000;
+}
+
+button:hover {
+  background-color: #f7b200;
+}
+
+/* Estilos para el botón activo */
+.active {
+  background-color: #f7a200;
+  border: 2px solid #fff;
+  color: #000;
+}
+
+/* Estilos para los botones "prev" y "next" */
+.prev,
+.next {
+  background-color: #f7a200;
+}
+
+/* Estilos para hacer la paginación responsive */
+@media (max-width: 768px) {
+  /* Cambios para pantallas pequeñas */
+  .paginado {
+    overflow-x: scroll; /* Habilitamos el desplazamiento horizontal en pantallas pequeñas */
+  }
+
+  button {
+    padding: 10px 10px; /* Reducimos aún más el padding horizontal */
+  }
+}
